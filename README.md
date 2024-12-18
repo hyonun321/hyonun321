@@ -1,6 +1,7 @@
-# 안녕하세요! 협업하고 싶은 개발자를 추구합니다! 👋
+# 안녕하세요! 협업하고 싶은 개발자 김현훈입니다 👋
 
-> Hello! I want to be a developer who wants to collaborate!
+> hello! I'm Hyunhun Kim, a developer we would like to collaborate with 👋
+
 
 `Problem Solver` `Team Player` `Clean Coder` `User-Focused Developer`
 
