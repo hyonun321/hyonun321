@@ -29,19 +29,21 @@
 **프로젝트 소개**:
 실시간으로 여러 사용자가 동시에 마크다운 문서를 편집할 수 있는 웹 애플리케이션입니다. CRDT 알고리즘을 활용하여 동시성 문제를 해결하고, 실시간 협업 기능을 구현했습니다.
 
-**주요 기술 스택**:
-- Frontend: React, TypeScript
-- Backend: NestJS, Socket.io
-- Database: MongoDB
-- Infrastructure: Docker, AWS
-
 **담당 업무 및 성과**:
-- CRDT 라이브러리 `@noctaCRDT` 설계 및 구현
+- 이중 링크드리스트 형태의 CRDT 라이브러리 제작
   - RGA(Replicated Growable Array) 방식의 LinkedList로 CRDT 구현
   - 텍스트 블럭순서와 텍스트입력을 관리하는 EditorCRDT, BlockCRDT 설계
 - Socket.io를 활용한 실시간 협업 기능 구현
   - 페이지별 권한 관리 시스템 설계
   - 다중 사용자 접속 처리 로직 구현
+
+- Nocta Icon 로티 애니메이션 제작
+  
+  - ![nocta_icon-ezgif com-resize](https://github.com/user-attachments/assets/7865eb11-f3a9-4c80-91fc-eadb3e04826b)
+  - 디자인: 피그마
+  - 애니메이션: Phase, Lotties
+- 기술 시연 영상 제작
+  - [Youtube](https://youtu.be/0AZAixGrMbo?si=qjJJbB8QWp_S4VL_)
 
 **문제 해결 경험**:
 - [여러 사용자가 동시에 다른 문서를 편집할 때 Caret이 이동하는 현상](https://notion.com)
