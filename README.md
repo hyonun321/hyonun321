@@ -30,26 +30,40 @@
 실시간으로 여러 사용자가 동시에 마크다운 문서를 편집할 수 있는 웹 애플리케이션입니다. CRDT 알고리즘을 활용하여 동시성 문제를 해결하고, 실시간 협업 기능을 구현했습니다.
 
 **담당 업무 및 성과**:
-- 이중 링크드리스트 형태의 CRDT 라이브러리 제작
-  - RGA(Replicated Growable Array) 방식의 LinkedList로 CRDT 구현
-  - 텍스트 블럭순서와 텍스트입력을 관리하는 EditorCRDT, BlockCRDT 설계
-- Socket.io를 활용한 실시간 협업 기능 구현
-  - 페이지별 권한 관리 시스템 설계
-  - 다중 사용자 접속 처리 로직 구현
-
+- [CRDT 라이브러리 설계 및 구현](https://abrupt-feta-9a9.notion.site/crdt-df0933efa254456e8f5e253adc41eec5?pvs=4)
+  - RGA 기반 이중 링크드리스트로 CRDT 설계
+  - EditorCRDT와 BlockCRDT 분리하여 확장성 부여
+  - 기존 단일 CRDT에서 다중 분리 구조로 변경하여 텍스트 동기화 성능 개선
+- 워크스페이스 실시간 상호작용 및 권한 관리 기능 개발
+  - 사용자별 워크스페이스 접근 권한 시스템 설계 및 구현
+  - WebSocket 기반 페이지별 실시간 다중 접속 관리 및 상태 동기화
+  - Socket.io를 활용한 실시간 알림 시스템(Toast)으로 협업 경험 개선
+- 개발위키 트러블슈팅 포함 40개 작성
 - Nocta Icon 로티 애니메이션 제작
   
-  - ![nocta_icon-ezgif com-resize](https://github.com/user-attachments/assets/7865eb11-f3a9-4c80-91fc-eadb3e04826b)
+  -![nocta Day](https://github.com/user-attachments/assets/81ddb6a4-a280-4750-98c1-27bf46ef7688)
   - 디자인: 피그마
   - 애니메이션: Phase, Lotties
-- 기술 시연 영상 제작
-  - [Youtube](https://youtu.be/0AZAixGrMbo?si=qjJJbB8QWp_S4VL_)
+- [기술 시연 영상 제작](https://youtu.be/0AZAixGrMbo?si=qjJJbB8QWp_S4VL_)
 
 **문제 해결 경험**:
-- [여러 사용자가 동시에 다른 문서를 편집할 때 Caret이 이동하는 현상](https://notion.com)
-  - 해결 방법: page별로 caret을 가지는 currentCaret을 client에 도입
-  - 결과: 페이지 별로 caret이 이동하는 현상 없이 안정적으로 동작
+- [다중 문서 캐럿 동기화 문제 해결](https://abrupt-feta-9a9.notion.site/ab1b87f31ec5459eb72f4241293fe8fa?pvs=4)
+  - 여러 문서를 동시에 편집할 때 유저들의 캐럿이 의도치 않게 다른 위치로 이동하는 현상 발생
+  - 해결 방법:
+    - 글로벌 상태로 관리되는 캐럿 위치가 모든 문서에 영향을 미치는 것을 확인
+    - 문서별로 독립적인 캐럿 상태 관리의 필요성 도출
+    - 로컬상태에서 페이지별 독립 캐럿 상태 관리 시스템 구현(setCaretPosition)
+  - 결과:
+    - 실시간 다중 사용자 편집 시에도 일관된 사용자 경험 제공
 
+- [실시간 동시편집 성능 최적화](https://abrupt-feta-9a9.notion.site/CRDT-d96629bf4f3045209508e5f3f55d8f36?pvs=4)
+  - 다수 사용자의 동시 입력 시 과도한 소켓 통신으로 인한 서버 부하 발생
+  - 과도한 통신량으로 인한 실시간 동기화 지연 및 동기화 누락 현상 발생
+  - 해결 방법:
+    - 사용자 입력 패턴 분석 (평균 0.5초당 3회 타이핑) 기반 배치 처리 도입
+  - 결과:
+    - 초당 소켓 통신량 70% 감소로 서버 리소스 효율화
+    - 네트워크 대역폭 사용량 최적화로 안정적인 동기화 성능 확보
 
 ## 🛠 Tech Stack
 
