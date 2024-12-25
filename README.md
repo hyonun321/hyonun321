@@ -34,12 +34,12 @@
   - RGA 기반 이중 링크드리스트로 CRDT 설계
   - EditorCRDT와 BlockCRDT 분리하여 확장성 부여
   - 기존 단일 CRDT에서 다중 분리 구조로 변경하여 텍스트 동기화 성능 개선
-- 워크스페이스 실시간 상호작용 및 권한 관리 기능 개발
+- [워크스페이스 실시간 상호작용 및 권한 관리 기능 개발](https://abrupt-feta-9a9.notion.site/workspace-1-Workspace-8f713bc4efad4969842ceb4e99f9cdb8?pvs=4)
   - 사용자별 워크스페이스 접근 권한 시스템 설계 및 구현
   - WebSocket 기반 페이지별 실시간 다중 접속 관리 및 상태 동기화
   - Socket.io를 활용한 실시간 알림 시스템(Toast)으로 협업 경험 개선
-- 개발위키 트러블슈팅 포함 40개 작성
-- Nocta Icon 로티 애니메이션 제작
+- [개발위키 트러블슈팅 포함 40개 작성](https://abrupt-feta-9a9.notion.site/12a9ff1b21c380f2a490deae65256639?pvs=4)
+- [Nocta Icon 로티 애니메이션 제작](https://abrupt-feta-9a9.notion.site/cb9b795665e940779ea2e57e1fe81776?pvs=4)
   
   -![nocta Day](https://github.com/user-attachments/assets/81ddb6a4-a280-4750-98c1-27bf46ef7688)
   - 디자인: 피그마
