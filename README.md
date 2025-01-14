@@ -30,11 +30,11 @@
 실시간으로 여러 사용자가 동시에 마크다운 문서를 편집할 수 있는 웹 애플리케이션입니다. CRDT 알고리즘을 활용하여 동시성 문제를 해결하고, 실시간 협업 기능을 구현했습니다.
 
 **담당 업무 및 성과**:
-- [CRDT 라이브러리 설계 및 구현](https://abrupt-feta-9a9.notion.site/crdt-df0933efa254456e8f5e253adc41eec5?pvs=4)
+- [CRDT 라이브러리 설계 및 구현](https://velog.io/@hyonun/CRDT-%EA%B5%AC%ED%98%84-%EC%97%AC%EC%A0%95%EA%B8%B0-1-CRDT%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B3%A0-%EA%B5%AC%ED%98%84%EB%B0%A9%EC%8B%9D%EC%9D%84-%EC%A0%95%ED%95%B4%EB%B3%B4%EC%9E%90)
   - RGA 기반 이중 링크드리스트로 CRDT 설계
   - EditorCRDT와 BlockCRDT 분리하여 확장성 부여
   - 기존 단일 CRDT에서 다중 분리 구조로 변경하여 텍스트 동기화 성능 개선
-- [워크스페이스 실시간 상호작용 및 권한 관리 기능 개발](https://abrupt-feta-9a9.notion.site/workspace-1-Workspace-8f713bc4efad4969842ceb4e99f9cdb8?pvs=4)
+- [워크스페이스 실시간 상호작용 및 권한 관리 기능 개발](https://velog.io/@hyonun/Socket.io-Workspace-%EA%B5%AC%ED%98%84-%EC%97%AC%EC%A0%95%EA%B8%B0-1-%EA%B2%8C%EC%8A%A4%ED%8A%B8-%EC%9C%A0%EC%A0%80-Workspace-%EB%B6%84%EB%A6%AC%ED%99%94)
   - 사용자별 워크스페이스 접근 권한 시스템 설계 및 구현
   - WebSocket 기반 페이지별 실시간 다중 접속 관리 및 상태 동기화
   - Socket.io를 활용한 실시간 알림 시스템(Toast)으로 협업 경험 개선
