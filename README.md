@@ -15,7 +15,7 @@
 ## 🏢 Experience
 <details>
   <summary>
-    네이버 부스트캠프 Web 9기 `Front-End Engineer`
+    네이버 부스트캠프 Web 9기 Front-End Engineer
   </summary>
   
 > 2024 Naver Boostcamp Web Development Course
