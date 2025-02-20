@@ -5,9 +5,19 @@
 
 `Problem Solver` `Team Player` `Clean Coder` `User-Focused Developer`
 
-## 🏢 Experience
 
-### 네이버 부스트캠프 Web 9기 `Front-End Engineer`
+## 🔍 More About Me
+
+- [🖌️ Portfolio](https://hyonun321.github.io/2025_portfolio_1/)
+- [✏️ 기술 블로그](https://velog.io/@hyonun)
+- [🏆 코드트리 프로필](https://www.codetree.ai/profiles/wantgosam)
+
+## 🏢 Experience
+<details>
+  <summary>
+    네이버 부스트캠프 Web 9기 `Front-End Engineer`
+  </summary>
+  
 > 2024 Naver Boostcamp Web Development Course
 
 **기간**: 2024.08.19 - 2024.12.06  
@@ -65,6 +75,8 @@
     - 초당 소켓 통신량 70% 감소로 서버 리소스 효율화
     - 네트워크 대역폭 사용량 최적화로 안정적인 동기화 성능 확보
 
+</details>
+
 ## 🛠 Tech Stack
 
 ### Frontend
@@ -79,9 +91,6 @@
 ### Tools & DevOps
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white)
 
-## 🔍 More About Me
-- [✏️ 기술 블로그](https://velog.io/@hyonun)
-- [🏆 코드트리 프로필](https://www.codetree.ai/profiles/wantgosam)
 
 [![코드트리|실력진단-wantgosam](https://banner.codetree.ai/v1/banner/wantgosam)](https://www.codetree.ai/profiles/wantgosam)
 
