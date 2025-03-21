@@ -15,12 +15,10 @@
 ## 🏢 Experience
 <details>
   <summary>
-    네이버 부스트캠프 Web 9기 Front-End Engineer
+    네이버 부스트캠프 Web 9기 Front-End Engineer【24.8 ~ 24.12】 
   </summary>
   
 > 2024 Naver Boostcamp Web Development Course
-
-**기간**: 2024.08.19 - 2024.12.06  
 
 **주요 활동**:
 - 웹 프로그래밍 심화 학습 및 실무 프로젝트 수행
@@ -51,7 +49,7 @@
 - [개발위키 트러블슈팅 포함 40개 작성](https://abrupt-feta-9a9.notion.site/12a9ff1b21c380f2a490deae65256639?pvs=4)
 - [Nocta Icon 로티 애니메이션 제작](https://abrupt-feta-9a9.notion.site/cb9b795665e940779ea2e57e1fe81776?pvs=4)
   
-  -![nocta Day](https://github.com/user-attachments/assets/81ddb6a4-a280-4750-98c1-27bf46ef7688)
+  ![nocta Day](https://github.com/user-attachments/assets/81ddb6a4-a280-4750-98c1-27bf46ef7688)
   - 디자인: 피그마
   - 애니메이션: Phase, Lotties
 - [기술 시연 영상 제작](https://youtu.be/0AZAixGrMbo?si=qjJJbB8QWp_S4VL_)
@@ -74,6 +72,44 @@
   - 결과:
     - 초당 소켓 통신량 70% 감소로 서버 리소스 효율화
     - 네트워크 대역폭 사용량 최적화로 안정적인 동기화 성능 확보
+
+</details>
+<details>
+  <summary>
+    LG유플러스 유레카 2기 Front-End 과정【25.1 ~ 25.8】 
+  </summary>
+
+  
+  > 2025 LG Uplus Ureca Front-end Course
+
+**주요 활동**:
+- 웹 아키텍처 기본 및 웹 보안 기초 교육
+- 코딩테스트 및 자바 기본역량 
+- 코드 리뷰와 페어 프로그래밍을 통한 코드 품질 향상
+
+
+## 💻 Projects
+
+### Doss! - 웹뷰 기반 주식 정보 열람 서비스
+> Mobile-View Stock Web Service
+
+[📘 GitHub Repository](https://github.com/hyonun321/toss_copy)
+
+🔗[Video](https://youtu.be/vD-YFp99zmY?si=hNS5s9xW3LVr1I0m)
+
+**프로젝트 소개**:
+앱처럼 동작하는 모바일뷰 기반 주식확인 증권 웹 서비스
+
+![1-ezgif com-speed](https://github.com/user-attachments/assets/6ff69ebf-d04a-4fdf-95ce-c4d856097de5)
+
+
+**담당 업무**:
+- Figma를 통해 컴포넌트 및 전체 유저시나리오 워크 플로우 디자인
+- Nextjs- App router 를 통한 페이지 라우팅
+- 앱 디자인 컴포저블 UI 형식으로 화면 설계
+- 디바운싱 & 엘라스틱 서치를 통한 주식정보 조회 (국내, 미국 총 6000개 추가)
+- Backend 연동하여 한국투자증권 실시간 주식(국내,미국) 정보 조회 기능 구현
+- 시연 영상 제작 (Adobe Premiere Pro)
 
 </details>
 
