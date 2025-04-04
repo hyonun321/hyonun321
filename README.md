@@ -1,8 +1,17 @@
-## 🔍 More About Me
+## 🔍 More About Me 
 
 - [🖌️ Portfolio](https://hyonun321.github.io/2025_portfolio_1/)
 - [✏️ 기술 블로그](https://velog.io/@hyonun)
-- [🏆 코드트리 프로필](https://www.codetree.ai/profiles/wantgosam)
+
+ 
+## 🛠 Tech Stack
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white)
+
+
 
 ## 🏢 Experience
 <details>
@@ -105,9 +114,6 @@
 
 </details>
 
-## 🛠 Tech Stack
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white)
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=hyonun321&label=Profile%20views&color=0e75b6&style=flat" alt="hyonun321" /> </p>
