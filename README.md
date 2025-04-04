@@ -1,9 +1,16 @@
+
+
 ## 🔍 More About Me 
 
-- [🖌️ Portfolio](https://hyonun321.github.io/2025_portfolio_1/)
-- [✏️ 기술 블로그](https://velog.io/@hyonun)
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/c7d1fca9-61a1-4399-9941-0ae0301c7822" width="150" alt="기술 스택 이미지">
+</div>
 
- 
+- [🖌️ Portfolio](https://hyonun321.github.io/2025_portfolio_1/)
+- [✏️ Blog](https://velog.io/@hyonun)
+
+
+
 ## 🛠 Tech Stack
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
