@@ -62,7 +62,7 @@
 </details>
 <details>
   <summary>
-    네이버 부스트캠프 Web 9기 Front-End Engineer 【24.8 ~ 24.12】 
+    네이버 부스트캠프 Web 9기 Full-Stack Engineer 【24.8 ~ 24.12】 
   </summary>
   
 > 2024 Naver Boostcamp Web Development Course
