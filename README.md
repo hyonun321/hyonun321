@@ -77,7 +77,7 @@
 ### Nocta - 실시간 동시편집 마크다운 에디터
 > A real-time collaborative Markdown editor powered by CRDT
 
-[🔗 Live Demo](https://nocta.site) | [📘 GitHub Repository](https://github.com/boostcampwm-2024/web33-Nocta)
+[🔗 Live Demo](https://nocta.site) | [📘 GitHub Repository](https://github.com/boostcampwm-2024/refactor-web33-Nocta)
 
 ![Nocta Preview](https://github.com/user-attachments/assets/05fef68a-1308-4953-9ecd-8f60cb0ab157)
 
@@ -89,6 +89,7 @@
   - RGA 기반 이중 링크드리스트로 CRDT 설계
   - EditorCRDT와 BlockCRDT 분리하여 확장성 부여
   - 기존 단일 CRDT에서 다중 분리 구조로 변경하여 텍스트 동기화 성능 개선
+ 
 - [워크스페이스 실시간 상호작용 및 권한 관리 기능 개발](https://velog.io/@hyonun/Socket.io-Workspace-%EA%B5%AC%ED%98%84-%EC%97%AC%EC%A0%95%EA%B8%B0-1-%EA%B2%8C%EC%8A%A4%ED%8A%B8-%EC%9C%A0%EC%A0%80-Workspace-%EB%B6%84%EB%A6%AC%ED%99%94)
   - 사용자별 워크스페이스 접근 권한 시스템 설계 및 구현
   - WebSocket 기반 페이지별 실시간 다중 접속 관리 및 상태 동기화
@@ -100,9 +101,11 @@
   - 디자인: 피그마
   - 애니메이션: Phase, Lotties
 - [기술 시연 영상 제작](https://youtu.be/0AZAixGrMbo?si=qjJJbB8QWp_S4VL_)
+- AI 기능 추가
+  - 유저가 원하는 페이지 문서의 초안을 작성하거나 정보를 얻게 도와줌
 
 **문제 해결 경험**:
-- [다중 문서 캐럿 동기화 문제 해결](https://abrupt-feta-9a9.notion.site/ab1b87f31ec5459eb72f4241293fe8fa?pvs=4)
+- [입력 순서 불일치로 인한 캐럿 동기화 문제](https://velog.io/@hyonun/%EC%BA%90%EB%9F%BF%EB%8F%99%EA%B8%B0%ED%99%94)
   - 여러 문서를 동시에 편집할 때 유저들의 캐럿이 의도치 않게 다른 위치로 이동하는 현상 발생
   - 해결 방법:
     - 글로벌 상태로 관리되는 캐럿 위치가 모든 문서에 영향을 미치는 것을 확인
@@ -111,14 +114,14 @@
   - 결과:
     - 실시간 다중 사용자 편집 시에도 일관된 사용자 경험 제공
 
-- [실시간 동시편집 성능 최적화](https://abrupt-feta-9a9.notion.site/CRDT-d96629bf4f3045209508e5f3f55d8f36?pvs=4)
-  - 다수 사용자의 동시 입력 시 과도한 소켓 통신으로 인한 서버 부하 발생
-  - 과도한 통신량으로 인한 실시간 동기화 지연 및 동기화 누락 현상 발생
+- [불필요한 리렌더링 55% 개선 ](https://velog.io/@hyonun/%EB%A6%AC%EB%A0%8C%EB%8D%94%EB%A7%81)
+  - 페이지 리사이즈 및 이동시 동일한 DOM요소의 리렌더링 발생
+  - 과도한 렌더링으로 인한 성능저하 발생
   - 해결 방법:
-    - 사용자 입력 패턴 분석 (평균 0.5초당 3회 타이핑) 기반 배치 처리 도입
+    - 텍스트 블럭요소 React.memo 및 useCallback 활용
   - 결과:
-    - 초당 소켓 통신량 70% 감소로 서버 리소스 효율화
-    - 네트워크 대역폭 사용량 최적화로 안정적인 동기화 성능 확보
+    - 전체 렌더링 시간 11.3ms -> 4.9ms 으로 55% 개선
+    - 리스트 가상화를 통한 보이는 요소만 렌더링 처리
 
 </details>
 
