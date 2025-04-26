@@ -1,7 +1,5 @@
 # 👨‍💻 hyonun
 
-## 🔍 More About Me 
-
 <div align="left">
   <img src="https://github.com/user-attachments/assets/c7d1fca9-61a1-4399-9941-0ae0301c7822" width="150" alt="기술 스택 이미지">
 </div>
@@ -12,13 +10,12 @@
 
 
 ## 🛠 Tech Stack
-
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white)
-
-
 
 ## 🏢 Experience
 
