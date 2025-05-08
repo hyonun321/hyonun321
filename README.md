@@ -21,9 +21,26 @@
 
 <details>
   <summary>
+    렛츠커리어 Front-End 엔지니어 【25.5 ~】 
+  </summary>
+  
+  > Let's Career Front-end Engineer
+
+  [🌐Site](https://www.letscareer.co.kr/)
+
+**주요 활동**: **[웹사이트 Frontend 개발]** 
+- Backend 개발자, PM, 프로덕트 디자이너 등과의 자유로운 협업을 통해 함께 성장하는 환경 구축
+- Next.js 기반의 Frontend 코드베이스 개선 및 검색엔진 최적화를 위한 SSR 작업 수행
+- 프로덕트 런칭 후 발생하는 긴급 이슈 대응 및 사용자 경험 개선을 위한 운영 업무 수행
+- 내부 운영에 필요한 백오피스 시스템 구축 및 개선을 통해 운영팀과 협업하며 서비스 효율성 극대화
+
+  
+</details>
+<details>
+  <summary>
     LG유플러스 유레카 2기 Front-End 과정 【25.1 ~ 25.8】 
   </summary>
-
+  
   
   > 2025 LG Uplus Ureca Front-end Course
 
