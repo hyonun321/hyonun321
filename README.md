@@ -27,7 +27,8 @@
   > Let's Career Front-end Engineer
 
   [🌐Site](https://www.letscareer.co.kr/)
-
+ [📘GitHub Repository](https://github.com/Let-s-intern/lets-intern-client)
+ 
 **주요 활동**: **[웹사이트 Frontend 개발]** 
 - Backend 개발자, PM, 프로덕트 디자이너 등과의 자유로운 협업을 통해 함께 성장하는 환경 구축
 - Next.js 기반의 Frontend 코드베이스 개선 및 검색엔진 최적화를 위한 SSR 작업 수행
@@ -51,6 +52,35 @@
 
 
 ## 💻 Projects
+
+### 🧠 JobThoughts – 가치관 기반 직업 추천 및 채용 안내 서비스  
+> Value-driven Job Recommendation Web App
+
+
+[🌐Site](https://job-thoughts-client.vercel.app/)
+[📘GitHub Repository](https://github.com/hyonun321/JobThoughts)  
+[🔗PPT](https://www.canva.com/design/DAGm6Gp7AEs/RV6anLgGtHmjVq6RjZv9dw/view?utm_content=DA%5B%E2%80%A6%5Dhare&utm_medium=link2&utm_source=uniquelinks&utlId=h4543e21b68)
+
+
+**프로젝트 소개**:  
+가치관 기반 직업 추천과 채용 공고 안내를 제공하는 인터랙티브 웹 서비스
+  
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/f95064c8-b70e-4b4f-a3c4-c5ac2f74576d" width="400"/></td>
+        <td><img src="https://github.com/user-attachments/assets/6ba58355-0cfe-4253-8faa-67221cbb1855" width="400"/></td>
+  </tr>
+</table>
+
+**담당 업무**:  
+- CareerNet API 연동 및 카드 기반 직업 가치관 검사 구현  
+- Framer Motion, Sticky 섹션을 활용한 스크롤 기반 인터랙션 UI 설계  
+- Puppeteer를 이용한 채용공고 크롤링 테스트 및 Render/Vercel 배포  
+- 사용자 흐름 중심의 반응형 UI 및 키보드 기반 UX 구성  
+- 팀 내 역할 분담에 따른 기술 위키 작성 및 협업 중심 개발
+
+---
+
 
 ### Doss! - 웹뷰 기반 주식 정보 열람 서비스
 > Mobile-View Stock Web Service
@@ -125,18 +155,26 @@
     - 글로벌 상태로 관리되는 캐럿 위치가 모든 문서에 영향을 미치는 것을 확인
     - 문서별로 독립적인 캐럿 상태 관리의 필요성 도출
     - 로컬상태에서 페이지별 독립 캐럿 상태 관리 시스템 구현(setCaretPosition)
-  - 결과:
-    - 실시간 다중 사용자 편집 시에도 일관된 사용자 경험 제공
 
 - [불필요한 리렌더링 55% 개선 ](https://velog.io/@hyonun/%EB%A6%AC%EB%A0%8C%EB%8D%94%EB%A7%81)
   - 페이지 리사이즈 및 이동시 동일한 DOM요소의 리렌더링 발생
-  - 과도한 렌더링으로 인한 성능저하 발생
   - 해결 방법:
     - 텍스트 블럭요소 React.memo 및 useCallback 활용
-  - 결과:
     - 전체 렌더링 시간 11.3ms -> 4.9ms 으로 55% 개선
     - 리스트 가상화를 통한 보이는 요소만 렌더링 처리
 
+#### **리팩토링**: (25.1 ~ 25.6) 현재 진행중
+
+<img src="https://github.com/user-attachments/assets/8e4b6dd1-a6e6-469c-8ec4-634adb08bde6" width="600"/>
+
+**- 목적: 개발자에게 캐럿 관리나 문서 상태관리를 하지 않게 하기 위함**
+
+- [NoctaCRDT 라이브러리 리팩토링 -> NoctaDoc 으로 개선](https://velog.io/@hyonun/CRDT-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81-1)
+  - NoctaDoc: CRDT 관련 연산을 처리하는 문서 라이브러리
+  - NoctaRealm: CRDT 관련 연산 이후 캐럿 상태와 문서 동기화를 관리하는 라이브러리
+  - @: Socket 연결및 room 관련 처리
+  - 프론트엔드, 서버 별로 Adapter를 주입 해제 시키는 방법으로 리팩토링
+  
 </details>
 
 
