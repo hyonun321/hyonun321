@@ -53,6 +53,40 @@
 
 ## 💻 Projects
 
+### 🤖 Me+ (미플러스) – GPT 기반 요금제 추천 챗봇 서비스
+> GPT-powered Mobile Plan Recommendation Chatbot
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/572e43d3-b2ec-4be8-8024-d1467dec4de8" width="400"/>
+  <video src="https://github.com/user-attachments/assets/a35c2dd6-d203-4ed0-b392-ee763cfe71a3" width="400"/>
+</p>
+
+[🌐Site](https://me-plus-client.vercel.app/)
+[📘 GitHub Repository](https://github.com/yeji424/me-plus)
+[🔗 발표자료(PPT)](https://www.canva.com/design/DAGrVKE6bnw/QJfV7bizUrdXYFs1XzD1aQ/edit)
+[🎥 시연 영상](https://www.youtube.com/watch?v=04NNuDxZ5X0&ab_channel=%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%AF%B8)
+
+**프로젝트 소개**: 
+GPT 모델을 활용하여 사용자에게 맞춤형 모바일 요금제를 추천하는 챗봇 기반 웹 서비스입니다.
+
+
+
+**담당 업무:**
+- GPT 기반 요금제 추천 설계 및 ChatBotPage UI/UX 리드
+- 한국투자증권 API와 Puppeteer 기반 크롤링 테스트
+- GPT 응답 토큰 최적화를 위한 프롬프트 및 모델 구조 설계
+- 실시간 응답 처리를 위한 Socket 통신 및 메모이제이션 구조 설계
+- 유저 상태 기반 UX 흐름 제어 (searchParams, React.memo 등 활용)
+- 기능 명세서, 설계 기준 정의 및 팀 기술 위키 작성
+
+**핵심 경험:**
+![image](https://github.com/user-attachments/assets/e3ad6f49-257b-43b3-b1f0-030dd5eb520c)
+
+- ✅ GPT 설계 인사이트
+  - 초기에는 GPT에 모든 요금제 데이터를 통째로 넣는 구조를 실험했으나, 토큰 한계 및 응답 딜레이 문제로 GPT-4.1-mini + DB 필터링 구조로 전환
+  - '요금제 4회 응답 내 제공', '응답 속도 최소화', '토큰 소모 절감'을 기준으로 성능 비교 실험과 베이스라인 정의
+
 ### 🧠 JobThoughts – 가치관 기반 직업 추천 및 채용 안내 서비스  
 > Value-driven Job Recommendation Web App
 
@@ -60,6 +94,10 @@
 [🌐Site](https://job-thoughts-client.vercel.app/)
 [📘GitHub Repository](https://github.com/hyonun321/JobThoughts)  
 [🔗PPT](https://www.canva.com/design/DAGm6Gp7AEs/RV6anLgGtHmjVq6RjZv9dw/view?utm_content=DA%5B%E2%80%A6%5Dhare&utm_medium=link2&utm_source=uniquelinks&utlId=h4543e21b68)
+
+
+
+
 
 
 **프로젝트 소개**:  
