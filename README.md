@@ -21,7 +21,17 @@
 
 <details>
   <summary>
-    렛츠커리어 Front-End 엔지니어 【25.5 ~】 
+    토스증권 Frontend Developer Assistant 【25.8 ~】 
+  </summary>
+  
+  > Toss-Invest Frontend Developer Assistant
+
+  
+</details>
+
+<details>
+  <summary>
+    렛츠커리어 Front-End Developer 【25.5 ~】 
   </summary>
   
   > Let's Career Front-end Engineer
