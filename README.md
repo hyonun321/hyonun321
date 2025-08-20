@@ -225,5 +225,8 @@ GPT 모델을 활용하여 사용자에게 맞춤형 모바일 요금제를 추�
   
 </details>
 
+## 🌱 Contribution
+
+- [yjs/yjs](https://github.com/yjs/yjs/pull/722)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hyonun321&label=Profile%20views&color=0e75b6&style=flat" alt="hyonun321" /> </p>
