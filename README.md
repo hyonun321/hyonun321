@@ -21,7 +21,7 @@
 
 <details>
   <summary>
-    토스증권 Frontend Developer Assistant 【25.8 ~】 
+    토스증권 Frontend Developer Assistant 【25.8 ~ Now】 
   </summary>
   
   > Toss-Invest Frontend Developer Assistant
@@ -31,7 +31,7 @@
 
 <details>
   <summary>
-    렛츠커리어 Front-End Developer 【25.5 ~】 
+    렛츠커리어 Front-End Developer 【25.5 ~ Now】 
   </summary>
   
   > Let's Career Front-end Engineer
@@ -211,7 +211,7 @@ GPT 모델을 활용하여 사용자에게 맞춤형 모바일 요금제를 추�
     - 전체 렌더링 시간 11.3ms -> 4.9ms 으로 55% 개선
     - 리스트 가상화를 통한 보이는 요소만 렌더링 처리
 
-#### **리팩토링**: (25.1 ~ 25.6) 현재 진행중
+#### **리팩토링**: (25.1 ~ Now)
 
 <img src="https://github.com/user-attachments/assets/8e4b6dd1-a6e6-469c-8ec4-634adb08bde6" width="600"/>
 
