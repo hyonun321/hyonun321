@@ -19,37 +19,66 @@
 
 ## 🏢 Experience
 
+**【25.08 ~ Now】**
 <details>
   <summary>
-    토스증권 Frontend Developer Assistant 【25.8 ~ Now】 
+    토스증권 Frontend Developer Assistant 
   </summary>
   
-  > Toss-Invest Frontend Developer Assistant
+  > Toss Securities Frontend Developer Assistant
 
+### 💽 S3 Object Storage Browser
+> A web-based file explorer for S3-compatible object storage systems like Ceph
+
+**프로젝트 소개**: 
+S3 API를 따르는 오브젝트 스토리지를 콘솔이나 CLI가 아닌 브라우저에서 폴더·파일처럼 탐색하고 관리할 수 있는 웹 UI 서비스입니다.
+
+**담당 업무:**
+- 사내 직원 대상 S3 Object Storage 브라우저 설계 및 개발 (팀별 접근 권한 기반 데이터 조회 최적화)
+- 기존 콘솔 기반 탐색의 불편함 해소를 위한 UI/UX 개선 및 사내 TDS(디자인 시스템) 적용
+- 사내 코드/파일 규칙 준수를 고려한 컴포넌트 설계 및 서비스 구현
+
+**핵심 경험:**
+대규모 데이터 오브젝트 스토리지 브라우저 최적화 경험
+- 📕 리스트 가상화
+  - 사내 디자인 시스템 테이블 컴포넌트의 Web Vitals를 측정 **115개 이하 부터 INP 500ms 이상, LCP 2500ms이상 발생**
+  - 리스트 가상화를 통해 **LCP 5.3s -> 1.1s, INP 4.4 -> 0.25s**로 **80% 이상**  최적화
+  - **tanstack/react-virtual** 라이브러리 활용
+
+---
   
 </details>
 
+
+**【25.05 ~ Now】**
 <details>
   <summary>
-    렛츠커리어 Front-End Developer 【25.5 ~ Now】 
+    렛츠커리어 Front-End Developer 
   </summary>
   
   > Let's Career Front-end Engineer
 
-  [🌐Site](https://www.letscareer.co.kr/)
+ [🌐Site](https://www.letscareer.co.kr/)
  [📘GitHub Repository](https://github.com/Let-s-intern/lets-intern-client)
- 
-**주요 활동**: **[웹사이트 Frontend 개발]** 
-- Backend 개발자, PM, 프로덕트 디자이너 등과의 자유로운 협업을 통해 함께 성장하는 환경 구축
-- Next.js 기반의 Frontend 코드베이스 개선 및 검색엔진 최적화를 위한 SSR 작업 수행
-- 프로덕트 런칭 후 발생하는 긴급 이슈 대응 및 사용자 경험 개선을 위한 운영 업무 수행
-- 내부 운영에 필요한 백오피스 시스템 구축 및 개선을 통해 운영팀과 협업하며 서비스 효율성 극대화
 
+**프로젝트 소개**: 
+취업 준비생을 위해 미션과 동기부여, 커뮤니티 지원을 제공하는 챌린지 기반 온라인 커리어 준비 플랫폼
+
+**주요 활동:** 
+- Backend 개발자, PM, 프로덕트 디자이너 등과의 자유로운 협업을 통해 함께 성장하며 프로덕트 개발
+- Next.js 기반의 Frontend 코드베이스 개선 및 Admin 페이지 신규 기능 개발 수행
+- 프로덕트 런칭 후 발생하는 긴급 이슈 대응 및 사용자 경험 개선을 위한 운영 업무 수행
+- 내부 운영에 필요한 백오피스 시스템 구축 및 개선을 통해 운영팀과 협업
+
+---
   
 </details>
+
+
+**【25.01 ~ 25.08】**
 <details>
   <summary>
-    LG유플러스 유레카 2기 Front-End 과정 【25.1 ~ 25.8】 
+    LG유플러스 유레카 2기 Front-End 과정 
   </summary>
   
   
@@ -59,9 +88,6 @@
 - 웹 아키텍처 기본 및 웹 보안 기초 교육
 - 코딩테스트 및 자바 기본역량 
 - 코드 리뷰와 페어 프로그래밍을 통한 코드 품질 향상
-
-
-## 💻 Projects
 
 ### 🤖 Me+ (미플러스) – GPT 기반 요금제 추천 챗봇 서비스
 > GPT-powered Mobile Plan Recommendation Chatbot
@@ -97,64 +123,15 @@ GPT 모델을 활용하여 사용자에게 맞춤형 모바일 요금제를 추�
   - 초기에는 GPT에 모든 요금제 데이터를 통째로 넣는 구조를 실험했으나, 토큰 한계 및 응답 딜레이 문제로 GPT-4.1-mini + DB 필터링 구조로 전환
   - '요금제 4회 응답 내 제공', '응답 속도 최소화', '토큰 소모 절감'을 기준으로 성능 비교 실험과 베이스라인 정의
 
-### 🧠 JobThoughts – 가치관 기반 직업 추천 및 채용 안내 서비스  
-> Value-driven Job Recommendation Web App
-
-
-[🌐Site](https://job-thoughts-client.vercel.app/)
-[📘GitHub Repository](https://github.com/hyonun321/JobThoughts)  
-[🔗PPT](https://www.canva.com/design/DAGm6Gp7AEs/RV6anLgGtHmjVq6RjZv9dw/view?utm_content=DA%5B%E2%80%A6%5Dhare&utm_medium=link2&utm_source=uniquelinks&utlId=h4543e21b68)
-
-
-
-
-
-
-**프로젝트 소개**:  
-가치관 기반 직업 추천과 채용 공고 안내를 제공하는 인터랙티브 웹 서비스
-  
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/f95064c8-b70e-4b4f-a3c4-c5ac2f74576d" width="400"/></td>
-        <td><img src="https://github.com/user-attachments/assets/6ba58355-0cfe-4253-8faa-67221cbb1855" width="400"/></td>
-  </tr>
-</table>
-
-**담당 업무**:  
-- CareerNet API 연동 및 카드 기반 직업 가치관 검사 구현  
-- Framer Motion, Sticky 섹션을 활용한 스크롤 기반 인터랙션 UI 설계  
-- Puppeteer를 이용한 채용공고 크롤링 테스트 및 Render/Vercel 배포  
-- 사용자 흐름 중심의 반응형 UI 및 키보드 기반 UX 구성  
-- 팀 내 역할 분담에 따른 기술 위키 작성 및 협업 중심 개발
-
 ---
 
-
-### Doss! - 웹뷰 기반 주식 정보 열람 서비스
-> Mobile-View Stock Web Service
-
-[📘 GitHub Repository](https://github.com/hyonun321/toss_copy)
-
-🔗[Video](https://youtu.be/vD-YFp99zmY?si=hNS5s9xW3LVr1I0m)
-
-**프로젝트 소개**:
-앱처럼 동작하는 모바일뷰 기반 주식확인 증권 웹 서비스
-
-![1-ezgif com-speed](https://github.com/user-attachments/assets/6ff69ebf-d04a-4fdf-95ce-c4d856097de5)
-
-
-**담당 업무**:
-- Figma를 통해 컴포넌트 및 전체 유저시나리오 워크 플로우 디자인
-- Nextjs- App router 를 통한 페이지 라우팅
-- 앱 디자인 컴포저블 UI 형식으로 화면 설계
-- 디바운싱 & 엘라스틱 서치를 통한 주식정보 조회 (국내, 미국 총 6000개 추가)
-- Backend 연동하여 한국투자증권 실시간 주식(국내,미국) 정보 조회 기능 구현
-- 시연 영상 제작 (Adobe Premiere Pro)
-
 </details>
+
+
+**【24.08 ~ 24.12】**
 <details>
   <summary>
-    네이버 부스트캠프 Web 9기 Full-Stack Engineer 【24.8 ~ 24.12】 
+    네이버 부스트캠프 Web 9기 Full-Stack Engineer 
   </summary>
   
 > 2024 Naver Boostcamp Web Development Course
@@ -163,8 +140,6 @@ GPT 모델을 활용하여 사용자에게 맞춤형 모바일 요금제를 추�
 - 웹 프로그래밍 심화 학습 및 실무 프로젝트 수행
 - 팀 프로젝트를 통한 협업 경험 강화
 - 코드 리뷰와 페어 프로그래밍을 통한 코드 품질 향상
-
-## 💻 Projects
 
 ### Nocta - 실시간 동시편집 마크다운 에디터
 > A real-time collaborative Markdown editor powered by CRDT
