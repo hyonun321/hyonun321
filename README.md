@@ -22,7 +22,7 @@
 **【25.08 ~ Now】**
 <details>
   <summary>
-    토스증권 Frontend Developer Assistant 
+    토스증권 Front-End Developer Assistant 
   </summary>
   
   > Toss Securities Frontend Developer Assistant
