@@ -19,13 +19,21 @@
 
 ## 🏢 Experience
 
-**【25.08 ~ Now】** 토스증권 Front-End Developer Assistant 
+**【25.08 ~ Now】** 
 
-**【25.05 ~ Now】** 렛츠커리어 Front-End Developer 
+토스증권 Front-End Developer Assistant 
 
-**【25.01 ~ 25.08】** LG유플러스 유레카 2기 Front-End 과정 
+**【25.05 ~ Now】** 
 
-**【24.08 ~ 24.12】** 네이버 부스트캠프 Web 9기 Full-Stack Engineer 
+렛츠커리어 Front-End Developer 
+
+**【25.01 ~ 25.08】** 
+
+LG유플러스 유레카 2기 Front-End 과정 
+
+**【24.08 ~ 24.12】** 
+
+네이버 부스트캠프 Web 9기 Full-Stack Engineer 
 
 ## 🌱 Contribution
 
