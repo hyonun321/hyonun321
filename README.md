@@ -4,7 +4,7 @@
   <img src="https://github.com/user-attachments/assets/c7d1fca9-61a1-4399-9941-0ae0301c7822" width="150" alt="기술 스택 이미지">
 </div>
 
-- [🖌️ Portfolio](https://hyonun321.github.io/2025_portfolio_1/)
+- [🖌️ Portfolio](https://hyonun321.github.io/2025_portfolio_1/) [수정중]
 - [✏️ Blog](https://velog.io/@hyonun)
 
 
@@ -19,21 +19,17 @@
 
 ## 🏢 Experience
 
-**【25.08 ~ Now】** 
 
-토스증권 Front-End Developer Assistant 
+- 🐳 [토스증권](https://toss.im/career/community/tosssecurities) Front-End Developer Assistant (2025.08 ~)
 
-**【25.05 ~ Now】** 
 
-렛츠커리어 Front-End Developer 
+- 👾 [렛츠커리어](https://www.letscareer.co.kr/) Front-End Developer (2025. 05 ~)
 
-**【25.01 ~ 25.08】** 
 
-LG유플러스 유레카 2기 Front-End 과정 
+- ⛽️ [LG유플러스 유레카 2기](https://event.multicampus.com/lguplus) Front-End 과정 (2025. 01 ~ 2025. 08)
 
-**【24.08 ~ 24.12】** 
 
-네이버 부스트캠프 Web 9기 Full-Stack Engineer 
+- 🌳 [네이버 부스트캠프](https://boostcamp.connect.or.kr/) Web 9기 Full-Stack Engineer (2024. 06 ~ 2025. 01)
 
 ## 🌱 Contribution
 
