@@ -19,8 +19,10 @@
 
 ## 🏢 Experience
 
+- 🐳 [토스증권](https://toss.im/career/community/tosssecurities) Front-End Ops Developer (2025.12 ~)
 
-- 🐳 [토스증권](https://toss.im/career/community/tosssecurities) Front-End Developer Assistant (2025.08 ~)
+
+- 🐳 [토스증권](https://toss.im/career/community/tosssecurities) Front-End Developer Assistant (2025.08 ~ 2025.12)
 
 
 - 👾 [렛츠커리어](https://www.letscareer.co.kr/) Front-End Developer (2025. 05 ~)
