@@ -4,7 +4,6 @@
   <img src="https://github.com/user-attachments/assets/c7d1fca9-61a1-4399-9941-0ae0301c7822" width="150" alt="기술 스택 이미지">
 </div>
 
-- [🖌️ Portfolio](https://hyonun321.github.io/2025_portfolio_1/) [수정중]
 - [✏️ Blog](https://velog.io/@hyonun)
 
 
