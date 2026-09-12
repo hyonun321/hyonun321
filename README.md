@@ -24,7 +24,7 @@
 - 🐳 [토스증권](https://toss.im/career/community/tosssecurities) Front-End Developer Assistant (2025.08 ~ 2025.12)
 
 
-- 👾 [렛츠커리어](https://www.letscareer.co.kr/) Front-End Developer (2025. 05 ~)
+- 👾 [렛츠커리어](https://www.letscareer.co.kr/) Front-End Developer (2025. 05 ~ 2026.06)
 
 
 - ⛽️ [LG유플러스 유레카 2기](https://event.multicampus.com/lguplus) Front-End 과정 (2025. 01 ~ 2025. 08)
